@@ -1,6 +1,6 @@
 let Person = require('./person');
 // Write your code here
-function Student(name, age, klass){
+var Student = function(name, age, klass){
   this.name = name;
   this.age = age;
   this.class = klass;
