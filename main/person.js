@@ -1,5 +1,5 @@
 // Write your code here
-var Person = function(name, age) {
+function Person(name, age){
   this.name = name;
   this.age = age;
   this.introduce = function() {
