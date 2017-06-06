@@ -8,5 +8,4 @@ function Student(name, age, klass){
     console.log("My name is " + this.name + ". I am " + this.age + " years old. I am a Student. I am at Class " + this.class + ".");
   }  
 }
-Student.prototype = Person;
 module.exports = Student;
